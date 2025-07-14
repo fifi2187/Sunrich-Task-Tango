@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddss21g4f6js4"]
+
+[ext_resource type="PackedScene" uid="uid://dh2vxogw0sbcc" path="res://game.tscn" id="1_ihgpa"]
+
+[node name="Game" instance=ExtResource("1_ihgpa")]
+
+[node name="Farming" type="Node2D" parent="." index="1"]
+
+[node name="Sprite2D" type="Sprite2D" parent="Farming" index="0"]
